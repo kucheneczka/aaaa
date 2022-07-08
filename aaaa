@@ -1,0 +1,309 @@
+
+if game:GetService("CoreGui"):FindFirstChild("Discord") then
+    local Discord = game:GetService("CoreGui").Discord
+    Discord:Destroy()
+end
+
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/kucheneczka/tired/main/im%20very%20bored")()
+
+local win = DiscordLib:Window("piekornik's hub")
+
+local NotificationBindable = Instance.new("BindableFunction")
+
+NotificationBindable.OnInvoke = callback
+
+local serv = win:Server("Preview", "http://www.roblox.com/asset/?id=9329192606")
+
+local holders = game:GetService("CoreGui").Discord.MainFrame.TopFrame.TopFrameHolder.ServersHolder.ServerFrame.ServerContentFrame.ServerChannelHolder
+
+local btns = serv:Channel("Credits")
+
+btns:Label("Made by piekornik!")
+
+btns:Label("Buy synapse!")
+
+btns:Label("Report bugs on discord!")
+
+btns:Label("Discord: https://discord.gg/waXAJ3b2d3")
+
+generaluse = serv:Channel("general use scripts ")
+
+generaluse:Button("inf yield ( CLICK TO EXECUTE )", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+generaluse:Seperator()
+
+generaluse:Button("Chat spy ( CLICK TO EXECUTE )", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dehoisted/Chat-Spy/main/source/main.lua"))()
+end)
+
+local psx = serv:Channel("Pet simulator X")
+
+psx:Button("PRESS K TO HIDE GUI")
+
+psx:Seperator()
+
+psx:Button("red gui ( click to execute )", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+end)
+
+psx:Seperator()
+
+psx:Button("meow gui ( click to execute )", function()
+    loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+end)
+
+psx:Seperator()
+
+psx:Button("crash server ( click to execute )", function()
+local troll = game:HttpGet("https://pastebin.com/raw/LvGVfqfH")
+
+while task.wait(0.2) do
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", troll)
+end
+end)
+
+psx:Seperator()
+
+psx:Button("Auto collect bags and coins thing ( click to execute )", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/FbQUxLMK", true))()
+end)
+
+psx:Seperator()
+
+psx:Button("MAXX'S OP GREY GUI ( click to execute )", function()
+    loadstring(game:HttpGet(("https://aizen.ml/uploads/petsimx.txt")))()
+end)
+
+psx:Seperator()
+
+psx:Button("THE green/grey gui ( click to execute )", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fttSzNs8'))()
+end)
+
+psx:Seperator()
+
+psx:Button("THE GREEN GUI SCRIPT ( click to execute )", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/Shiny-Tool/main/ShinyTool.lua"))()
+end)
+
+psx:Seperator()
+
+psx:Button("SYS EX ALTERNATIVE ( click to execute )", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/SalamiManU/0b0bc1d09bdad9f80eab58226cb6541b/raw/",true))()
+end)
+
+psx:Seperator()
+
+psx:Button("EMERALD HUB ( click to execute )", function()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/Sxdness0001/emerald-pet-sim/main/petsim')();
+    end)
+    
+psx:Seperator()
+
+psx:Button("new orange gui script ( click to execute )", function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+        
+psx:Seperator()
+
+psx:Button("floppa gui ( click to execute )", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/FloppaHub/main/FloppaHubMain.lua"))()
+end)
+            
+ psx:Seperator()
+
+ psx:Button("ow gui ( click to execute )", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/scrip/main/load",true))()
+end)
+            
+ psx:Seperator()
+
+ psx:Button("dino hub ( click to execute )", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/psx'))()
+end)
+            
+ psx:Seperator()
+
+ psx:Button("void hub ( click to execute )", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wind596/VoidHub/main/WiningDediy", true))()
+end)
+            
+ psx:Seperator()
+
+ psx:Button("petsi x hub ( click to execute )", function()
+    loadstring(game:GetObjects("rbxassetid://8194485654")[1].Source)("Petsi-X")
+end)
+            
+ psx:Seperator()
+
+ psx:Button("Saza  hub ( click to execute )", function()
+    _G.Color = Color3.fromRGB(255, 255, 255)
+loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
+end)
+            
+ psx:Seperator()
+
+ psx:Button("xTools hub ( click to execute )", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/GrubHub/main/free/PSXFree.lua"))()
+end)
+            
+ psx:Seperator()
+
+local StarvingArtist = serv:Channel("Starving Artist")
+
+StarvingArtist:Button("PRESS K TO HIDE GUI")
+
+StarvingArtist:Seperator()
+
+    StarvingArtist:Button("Catch all eggs ( CLICK TO EXECUTE )", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RYQMWAtf"))()
+    end)
+
+    StarvingArtist:Seperator()
+
+    StarvingArtist:Button("Steal peoples art ( CLICK TO EXECUTE )", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/aCFfd9Uq"))()
+    end)
+
+    StarvingArtist:Seperator()
+
+    StarvingArtist:Button("Find Rich server ( CLICK TO EXECUTE )", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/SP1exEci"))()
+    end)
+
+    StarvingArtist:Seperator()
+
+    local DH = serv:Channel("Da hood")
+
+    DH:Button("PRESS K TO HIDE GUI")
+
+    DH:Seperator()
+    
+        DH:Button("faded aim and esp gui ( CLICK TO EXECUTE )", function()
+            _G.HideToggle = "RightShift" -- You can put any keybind
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/FadedLock/main/YesEpic"))() 
+            
+        end)
+
+        DH:Seperator()
+
+        DH:Button("Swag hub ( CLICK TO EXECUTE )", function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+        end)
+
+        DH:Seperator()
+
+        DH:Button("Artic hub ( CLICK TO EXECUTE )", function()
+            loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+        end)
+
+        DH:Seperator()
+
+        DH:Button("Destiny hub ( CLICK TO EXECUTE )", function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
+        end)
+
+        DH:Seperator()
+
+        DH:Button("kool hub ( CLICK TO EXECUTE )", function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/KillerHood/scripting/main/k00lboy'))()
+        end)
+
+        DH:Seperator()
+
+        DH:Button("focus hub ( CLICK TO EXECUTE )", function()
+            loadstring(game:HttpGet('https://gist.githubusercontent.com/43SPLOITS/48a5898c7da2f6fe1203483e53095e32/raw/7f007a7c610e7d042284fd2ec2ca9dd9ea3bb8b3/gistfile1.txt'))()
+        end)
+
+        DH:Seperator()
+
+        DH:Button("hoodshark hub ( CLICK TO EXECUTE )", function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/HEQ50Lmp'))()
+        end)
+
+        DH:Seperator()
+
+        DH:Button("Lanxility hub ( CLICK TO EXECUTE )", function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/cjdjmj/new-ui-godmode/main/README.md", true))()
+        end)
+
+        DH:Seperator()
+
+
+        DH:Button("r4ware hub ( CLICK TO EXECUTE )", function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/kucheneczka/a/main/a"))()
+        end)
+
+        DH:Seperator()
+
+
+        DH:Button("faded hub ( CLICK TO EXECUTE )", function()
+            _G.Toggles = "V"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+        end)
+
+        DH:Seperator()
+
+        
+
+if game.PlaceId == 8916037983 then
+local StarvingArtist1 = holders["Pet simulator XChannelBtn"]:Destroy()
+ game.StarterGui:SetCore("SendNotification",  {
+        Title = "Piekornik";
+        Text = "Game found: Starving artist!";
+        Icon = "http://www.roblox.com/asset/?id=9329192606";
+        Duration = 5;
+        Callback = NotificationBindable;
+       })   
+
+    elseif game.PlaceId == 6284583030 then
+        local psx1 = holders["Starving ArtistChannelBtn"]:Destroy()
+        game.StarterGui:SetCore("SendNotification",  {
+               Title = "Piekornik";
+               Text = "Game found: Pet Simulator X!";
+               Icon = "http://www.roblox.com/asset/?id=9329192606";
+               Duration = 5;
+               Callback = NotificationBindable;
+              })
+
+            elseif game.PlaceId == 2788229376 then
+                local psx1 = holders["Starving ArtistChannelBtn"]:Destroy()
+                local StarvingArtist1 = holders["Pet simulator XChannelBtn"]:Destroy()
+                game.StarterGui:SetCore("SendNotification",  {
+                       Title = "Piekornik";
+                       Text = "Game found: Da hood!";
+                       Icon = "http://www.roblox.com/asset/?id=9329192606";
+                       Duration = 5;
+                       Callback = NotificationBindable;
+                      })
+else
+    game.StarterGui:SetCore("SendNotification",  {
+        Title = "Piekornik";
+        Text = "Game found: Everything!";
+        Icon = "http://www.roblox.com/asset/?id=9329192606";
+        Duration = 5;
+        Callback = NotificationBindable;
+       })
+end
+
+   
+   --
+   game.StarterGui:SetCore("SendNotification",  {
+    Title = "Piekornik";
+    Text = "Loaded succesfully!";
+    Icon = "http://www.roblox.com/asset/?id=9329192606";
+    Duration = 5;
+    Callback = NotificationBindable;
+   })
+
+local HotKey = Enum.KeyCode.K-- Key to open Gui --
+local UIS = game:GetService("UserInputService")
+local CoreGui = game.CoreGui.Discord
+
+UIS.InputBegan:Connect(function(Key)
+ if Key.KeyCode == HotKey then
+  CoreGui.Enabled = not CoreGui.Enabled
+ end
+end)
